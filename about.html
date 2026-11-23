@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Me | Personal Portfolio</title>
-        <link rel="stylesheet" href="styles/styles.css">
-    </head>
-    <body>
-        <header>
-           <img src="images/logo.png" alt="Portfolio Logo" width="100">
-        </header>
-    </body>
-</html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn more about Mark Aitken's education and background.">
+  <title>About Me | Mark Aitken Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="images/logo.png" alt="Mark Aitken portfolio logo">
+      <span>Mark Aitken</span>
+    </a>
 
-<nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="projects.html">Projects & Goals</a>
-        </nav>
-    </header>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a class="active" href="about.html">About Me</a>
+      <a href="projects.html">Projects and Goals</a>
+    </nav>
+  </header>
 
-    <main>
-        <h1>About Me</h1>
-        <p>I'm studying cybersecurity at BYU-Idaho.
-        I'm interested in computers, networking, and protecting information.</p>
+  <main>
+    <section class="page-heading">
+      <p class="eyebrow">My Background</p>
+      <h1>About Me</h1>
+      <p>
+        I am studying cybersecurity at BYU-Idaho. I am interested in
+        computers, networking, and protecting information.
+      </p>
+    </section>
 
-        <h2>My Background</h2>
-        <p>My experiences, including missionary service,
-        have helped me develop communication, teamwork,
-        and leadership skills.</p>
-    </main>
+    <section class="card-grid">
+      <article class="card">
+        <img src="images/byui-campus.jpg" alt="BYU-Idaho campus">
+        <h2>Education</h2>
+        <p>
+          My education is helping me develop skills in cybersecurity,
+          networking, technology, and problem solving.
+        </p>
+      </article>
 
-    <footer>
-        <p>&copy; 2026 Mark Aitken | WDD 130</p>
-    </footer>
+      <article class="card">
+        <img src="images/Wisconsin-Madison.jpg"
+             alt="Wisconsin State Capitol building">
+        <h2>Experience</h2>
+        <p>
+          My experiences, including missionary service, have helped me
+          develop communication, teamwork, leadership, and service skills.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Mark Aitken | WDD 130</p>
+  </footer>
 </body>
 </html>

@@ -1,34 +1,61 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects & Goals | Personal Portfolio</title>
-    <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mark Aitken's projects and future goals.">
+  <title>Projects and Goals | Mark Aitken Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="Portfolio Logo" width="100">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="projects.html">Projects & Goals</a>
-        </nav>
-    </header>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="images/logo.png" alt="Mark Aitken portfolio logo">
+      <span>Mark Aitken</span>
+    </a>
 
-    <main>
-        <h1>My Projects & Goals</h1>
-        <p>I'm developing skills in HTML, CSS, SQL,
-        networking, and cybersecurity.</p>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a class="active" href="projects.html">Projects and Goals</a>
+    </nav>
+  </header>
 
-        <h2>My Future Goals</h2>
-        <p>I want to continue building my technical skills
-        and prepare for a career in cybersecurity.</p>
-    </main>
+  <main>
+    <section class="page-heading">
+      <p class="eyebrow">What I Am Building</p>
+      <h1>My Projects and Goals</h1>
+      <p>
+        I am developing skills in HTML, CSS, SQL, networking, and
+        cybersecurity.
+      </p>
+    </section>
 
-    <footer>
-        <p>&copy; 2026 Mark Aitken | WDD 130</p>
-    </footer>
+    <section class="card-grid">
+      <article class="card">
+        <img src="images/cybersecurity.jpg"
+             alt="Cybersecurity shield protecting a network">
+        <h2>Cybersecurity</h2>
+        <p>
+          I am learning how networks, systems, and security tools work
+          so I can help protect information and technology.
+        </p>
+      </article>
+
+      <article class="card">
+        <img src="images/tech-workspace.webp"
+             alt="Technology workspace with computers and servers">
+        <h2>Future Goals</h2>
+        <p>
+          I want to continue building technical skills, complete useful
+          projects, and prepare for a career in cybersecurity.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Mark Aitken | WDD 130</p>
+  </footer>
 </body>
 </html>
